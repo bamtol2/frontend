@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영화관리 메인화면 만들기</title>
+</head>
+<body>
+    <header> <!-- 헤더 영역: 웹 페이지의 제목과 내비게이션 메뉴-->
+        <!--홈으로 이동할 수 있는 로고-->
+        <a href="https://edu.ssafy.com/edu/main/index.do">
+            <img src= "img/ssafy_logo.png" alt = "영화 관리" style="height: 50px">
+        </a>
+        <!-- form : 검색을 위한-->
+         <form action="/search", method="get">
+            <input type="text" name="query" placeholder="제목을 입력하세요.">
+            <button type="submit">검색</button>
+         </form>
+         <!--네비게이션 메뉴-->
+         <nav>
+            <a href="#login">로그인</a>
+            <a href="#logout">로그아웃</a>
+            <a href="#join">회원가입</a>
+            <a href="#board">게시판</a>
+            <a href="#myPage">마이페이지</a>
+            
+         </nav> 
+    </header>
+
+    <main>
+        <h2>
+            영화목록
+        </h2>
+        <section>
+            <ul>
+                <li>
+                    <img src= "img/eternals.jpg" alt = "영화 관리" style="height: 200px"> 
+                    <div>이터널스</div>
+                    <hr>
+                    <div>액션</div>
+                    <div>클로이자오</div>
+                    <div>155분</div>
+                    <button>찜</button>
+                </li>
+                <li>
+                    <img src= "img/venom.jpg" alt = "영화 관리" style="height: 200px"> 
+                    <div>베놈 2: 렛 데어 비 카니지</div>
+                    <hr>
+                    <div>액션</div>
+                    <div>앤디 서키스</div>
+                    <div>97분</div>
+                    <button>찜</button>
+                </li>
+                <li>
+                    <img src= "img/parasite.jpg" alt = "영화 관리" style="height: 200px"> 
+                    <div>기생충</div>
+                    <hr>
+                    <div>드라마</div>
+                    <div>봉준호</div>
+                    <div>131분</div>
+                    <button>찜</button>
+                </li>
+                <li>
+                    <img src= "img/harrypoter_stone.jpg" alt = "영화 관리" style="height: 200px"> 
+                    <div>해리포터와 마법사의 돌</div>
+                    <hr>
+                    <div>판타지</div>
+                    <div>크리스 콜럼버스</div>
+                    <div>152분</div>
+                    <button>찜</button>
+                </li>
+                <li>
+                    <img src= "img/harrypoter_room.jpg" alt = "영화 관리" style="height: 200px"> 
+                    <div>해리포터와 비밀의 방</div>
+                    <hr>
+                    <div>판타지</div>
+                    <div>크리스 콜럼버스</div>
+                    <div>162분</div>
+                    <button>찜</button>
+                </li>
+                <li>
+                    <img src= "img/dune.jpg" alt = "영화 관리" style="height: 200px"> 
+                    <div>반지의제왕: 왕의 귀환</div>
+                    <hr>
+                    <div>판타지</div>
+                    <div>피터 잭슨</div>
+                    <div>263분</div>
+                    <button>찜</button>
+                </li>
+                <li>
+                    <img src= "img/load_of_ring.jpg" alt = "영화 관리" style="height: 200px"> 
+                    <div>듄</div>
+                    <hr>
+                    <div>모험</div>
+                    <div>드니 뷜뇌브</div>
+                    <div>155분</div>
+                    <button>찜</button>
+                </li>
+                <li>
+                    <img src= "img/tomb_of_the_river.jpg" alt = "영화 관리" style="height: 200px"> 
+                    <div>강릉</div>
+                    <hr>
+                    <div>범죄</div>
+                    <div>윤빈영</div>
+                    <div>119분</div>
+                    <button>찜</button>
+                </li>
+                
+            </ul>
+        </section>
+        <aside>
+            <h3>찜리스트</h3>
+            <p>아직 찜한 영화가 없습니다</p>
+        </aside>
+    </main>
+    
+    <footer>
+        <ul>
+            <li><a href="#처리방침">개인정보처리방침</a></li>
+            <li><a href="#이용약관">이용약관</a></li>
+            <li><a href="#오시는길">오시는길</a></li>
+            <li>&copy; SSAFY 03반 김싸피</li>
+        </ul>
+    </footer>
+    
+</body>
+</html>
